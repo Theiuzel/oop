@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Inventory>
  */
-class inventoryFactory extends Factory
+class InventoryFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -16,8 +16,10 @@ class inventoryFactory extends Factory
      */
     public function definition(): array
     {
-        return [
-            //
-        ];
+        // static $id = 1;
+        // return [
+        //     'id' => $id++,
+        //     'quantity' => $this->faker->randomBetween(1,10),
+        // ];
     }
 }
